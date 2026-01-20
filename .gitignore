@@ -1,0 +1,31 @@
+# --- KiCad autosaves / backups ---
+*~
+_autosave-*
+*.bak
+*.bck
+*.tmp
+*.temp
+
+# --- KiCad lock / cache / session ---
+*.lck
+fp-info-cache
+*.kicad_pro.user
+*.kicad_prl
+
+# --- Generated outputs (usually do NOT commit) ---
+/gerbers/
+/drill/
+/manufacturing/
+/plots/
+/output/
+*.gbr
+*.drl
+*.pos
+*.csv
+*.zip
+
+# --- OS / editor noise ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

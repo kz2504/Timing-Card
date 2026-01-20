@@ -1,0 +1,7337 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5c7e0b41-9ae2-40ba-b1e3-30df1a7718d7")
+	(paper "A4")
+	(lib_symbols
+		(symbol "74xx:74AHCT125"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74AHCT125"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "buffer 3State"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm* SO14* SSOP?14* TSSOP?14* SOIC*3.9x8.7mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74AHCT125_1_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at 0 -6.35 90)
+					(length 4.445)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AHCT125_2_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at 0 -6.35 90)
+					(length 4.445)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AHCT125_3_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at 0 -6.35 90)
+					(length 4.445)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AHCT125_4_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at 0 -6.35 90)
+					(length 4.445)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AHCT125_5_0"
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AHCT125_5_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:EXB-28V220JX"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 8.382 9.144 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "EXB-28V220JX"
+				(at 8.89 5.588 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "EXB28V_PAN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "EXB-28V220JX"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "EXB-28V220JX"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "EXB28V_PAN EXB28V_PAN-M EXB28V_PAN-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "EXB-28V220JX_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.62) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.715 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 5.715 -1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 5.715 -3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -7.62) (xy 5.715 -6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 1.27) (xy 6.985 -1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 -1.27) (xy 6.985 -3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 -3.81) (xy 6.985 -6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 -6.35) (xy 6.985 -8.89)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 -1.27) (xy 8.255 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 -3.81) (xy 8.255 -1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 -6.35) (xy 8.255 -3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 -8.89) (xy 8.255 -6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 1.27) (xy 9.525 -1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 -1.27) (xy 9.525 -3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 -3.81) (xy 9.525 -6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 -6.35) (xy 9.525 -8.89)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -1.27) (xy 10.795 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -3.81) (xy 10.795 -1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -6.35) (xy 10.795 -3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -8.89) (xy 10.795 -6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.795 1.27) (xy 12.065 -1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.795 -1.27) (xy 12.065 -3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.795 -3.81) (xy 12.065 -6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.795 -6.35) (xy 12.065 -8.89)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.065 -1.27) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.065 -3.81) (xy 12.7 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.065 -6.35) (xy 12.7 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.065 -8.89) (xy 12.7 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 0) (xy 15.24 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -2.54) (xy 15.24 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -5.08) (xy 15.24 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -7.62) (xy 15.24 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 17.78 0 180)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 17.78 -2.54 180)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 17.78 -5.08 180)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 17.78 -7.62 180)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "EXB-28V220JX_1_1"
+				(rectangle
+					(start 2.54 2.54)
+					(end 15.24 -10.16)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "3.3V -> 5V Buffer"
+		(exclude_from_sim no)
+		(at 253.238 20.32 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "8fbbb798-eb3d-468f-8959-a2d3ecc9065e")
+	)
+	(junction
+		(at 107.95 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06a5d321-300f-4f62-ba85-f7fa9c930d62")
+	)
+	(junction
+		(at 210.82 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07b8d1d3-1726-478f-8398-dd194bed6f67")
+	)
+	(junction
+		(at 107.95 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ce42638-191c-4844-a92c-500d9797e952")
+	)
+	(junction
+		(at 157.48 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "128263ce-0e28-42d2-863c-b68868ab4269")
+	)
+	(junction
+		(at 34.29 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "166b3c30-0935-4d93-96ef-b69a5e18a9c0")
+	)
+	(junction
+		(at 226.06 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "208098a9-9951-4197-bf1b-925541b43472")
+	)
+	(junction
+		(at 210.82 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21d76805-6bbc-4b38-b46b-8041b133f09d")
+	)
+	(junction
+		(at 92.71 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ce6b441-a980-48a5-b5ad-28c48d41ccb9")
+	)
+	(junction
+		(at 39.37 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47154082-7f5e-40c0-a90a-cd98a1d1e10a")
+	)
+	(junction
+		(at 215.9 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48f28cc2-3bb0-463a-8e94-35122192f533")
+	)
+	(junction
+		(at 97.79 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d5b9139-a40c-4b60-af4e-9ef21d05c1af")
+	)
+	(junction
+		(at 167.64 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "585a27ff-5876-4124-a3b6-7421f0cf7856")
+	)
+	(junction
+		(at 152.4 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cf486eb-f3d7-4f69-b141-94b430ad9f8e")
+	)
+	(junction
+		(at 215.9 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "682f33e7-16b6-41b2-9118-bf749b981709")
+	)
+	(junction
+		(at 226.06 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70f92614-dfab-452b-8a56-0f46d54d696a")
+	)
+	(junction
+		(at 210.82 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84b7d17a-3c69-41b1-b61c-fb38e1e738b5")
+	)
+	(junction
+		(at 167.64 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85c8b8a3-e137-4490-88a7-982ff047ed7d")
+	)
+	(junction
+		(at 97.79 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b8ad967-1924-4d90-8dac-46bd0c45af82")
+	)
+	(junction
+		(at 92.71 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5c052ee-44f9-4261-841f-815546b5e9aa")
+	)
+	(junction
+		(at 49.53 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abd67559-3975-47a9-ac1a-b2cf794bde0c")
+	)
+	(junction
+		(at 39.37 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acb263a3-bf95-40a6-85f6-2039753b27ae")
+	)
+	(junction
+		(at 43.18 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9929682-41db-473f-bfa1-daaa45ec9363")
+	)
+	(junction
+		(at 152.4 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cae6468e-7f69-4905-a8cf-1b02384837c0")
+	)
+	(junction
+		(at 34.29 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1f0ceaa-f478-407e-8e8f-9d6473e3088a")
+	)
+	(junction
+		(at 157.48 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9c97561-9e79-4e71-b4c8-5195cbe2654e")
+	)
+	(junction
+		(at 34.29 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dacc2096-3d70-4776-941e-dcd1cd86b8c6")
+	)
+	(junction
+		(at 49.53 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db69784f-b99b-4c51-b7c8-4697590e36f8")
+	)
+	(junction
+		(at 101.6 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1c29c77-01a8-433e-9412-18fd2591795a")
+	)
+	(junction
+		(at 161.29 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e564a8d4-a310-41e2-ae3c-ff99c1edcfa0")
+	)
+	(junction
+		(at 92.71 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e935f9d6-30c1-4856-ace6-82028878f178")
+	)
+	(junction
+		(at 152.4 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff3ca5fc-f36e-47f4-83cf-f7bd432615e8")
+	)
+	(wire
+		(pts
+			(xy 33.02 74.93) (xy 35.56 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "007b2fd4-d1ad-4820-8718-ca19216c9b2a")
+	)
+	(wire
+		(pts
+			(xy 167.64 52.07) (xy 167.64 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "013c31c3-e8f2-47ab-84e3-aa4296134be9")
+	)
+	(wire
+		(pts
+			(xy 43.18 106.68) (xy 43.18 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "020a0fe7-0e92-4976-95dc-1f98dede1fce")
+	)
+	(wire
+		(pts
+			(xy 248.92 115.57) (xy 252.73 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04ab346a-b5eb-41af-ac7c-dbf702fee15a")
+	)
+	(wire
+		(pts
+			(xy 111.76 115.57) (xy 111.76 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b692f0d-648d-489f-9356-8f734b65e2ae")
+	)
+	(wire
+		(pts
+			(xy 34.29 132.08) (xy 34.29 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bc602cb-844f-48ec-a627-24e073c5693d")
+	)
+	(wire
+		(pts
+			(xy 97.79 50.8) (xy 107.95 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c76476f-445f-47b4-a45f-32cfd0382e2a")
+	)
+	(wire
+		(pts
+			(xy 170.18 110.49) (xy 172.72 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c9eef12-3b84-4b7f-a352-7f9bbc1c47ac")
+	)
+	(wire
+		(pts
+			(xy 49.53 22.86) (xy 52.07 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cfe8782-f443-445a-a0dd-db0f79c64eae")
+	)
+	(wire
+		(pts
+			(xy 152.4 156.21) (xy 161.29 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d4e4ce9-0902-48dc-8b28-70c3258158f6")
+	)
+	(wire
+		(pts
+			(xy 152.4 83.82) (xy 152.4 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df14a86-d066-43da-88cd-61668130ae22")
+	)
+	(wire
+		(pts
+			(xy 226.06 22.86) (xy 226.06 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e453f85-a3b7-4356-a7e5-b0ea1671ae2d")
+	)
+	(wire
+		(pts
+			(xy 49.53 50.8) (xy 52.07 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "107461f3-fe15-4a46-bad1-67697954c2f2")
+	)
+	(wire
+		(pts
+			(xy 49.53 50.8) (xy 49.53 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10c83c2e-85dc-4288-b58b-9c8bd8acd1e7")
+	)
+	(wire
+		(pts
+			(xy 110.49 100.33) (xy 110.49 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10d524a0-5dcd-482b-9cdc-9eff786f0f5a")
+	)
+	(wire
+		(pts
+			(xy 151.13 24.13) (xy 157.48 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "117d9757-fbb7-4655-9cdf-92fca654cc6a")
+	)
+	(wire
+		(pts
+			(xy 33.02 22.86) (xy 39.37 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "117f184f-bd1d-442e-a67f-601c4ff3fa88")
+	)
+	(wire
+		(pts
+			(xy 151.13 148.59) (xy 153.67 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1403e663-8831-456f-8a2f-6fda26cf3b98")
+	)
+	(wire
+		(pts
+			(xy 170.18 113.03) (xy 170.18 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14e806a2-fcf5-4043-9490-0012ebf50884")
+	)
+	(wire
+		(pts
+			(xy 227.33 124.46) (xy 228.6 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "174d47b5-a62e-4cf0-ae39-7b8042ee84f0")
+	)
+	(wire
+		(pts
+			(xy 49.53 22.86) (xy 39.37 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17c1570c-0b46-448e-97b1-f28fe616e434")
+	)
+	(wire
+		(pts
+			(xy 171.45 107.95) (xy 172.72 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19ac0b79-c808-48f0-ac69-3526cf70659b")
+	)
+	(wire
+		(pts
+			(xy 92.71 107.95) (xy 92.71 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a169b99-85fa-4ff8-8c9c-9b5e907b24ed")
+	)
+	(wire
+		(pts
+			(xy 168.91 100.33) (xy 170.18 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a5de361-3598-4bd2-954f-e60455f36f27")
+	)
+	(wire
+		(pts
+			(xy 209.55 34.29) (xy 209.55 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ab7caf7-25f5-4f26-af95-947a13f65b29")
+	)
+	(wire
+		(pts
+			(xy 190.5 115.57) (xy 194.31 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ac0d9d6-fa11-406e-820b-c2d0d53fdfca")
+	)
+	(wire
+		(pts
+			(xy 210.82 132.08) (xy 210.82 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e2e6a19-755c-4216-bf28-5403ecca0c00")
+	)
+	(wire
+		(pts
+			(xy 33.02 148.59) (xy 35.56 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21334c3f-a88b-4c69-8725-300abb315ffa")
+	)
+	(wire
+		(pts
+			(xy 91.44 100.33) (xy 93.98 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22b46064-8c05-4003-997e-1f8f0c895f8b")
+	)
+	(wire
+		(pts
+			(xy 209.55 52.07) (xy 209.55 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2449cbde-ba49-4a07-9efc-3941818df4a4")
+	)
+	(wire
+		(pts
+			(xy 152.4 132.08) (xy 161.29 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "271a9ab0-c209-4761-b028-be8178ec8de2")
+	)
+	(wire
+		(pts
+			(xy 171.45 74.93) (xy 171.45 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27bc979b-3ea8-4c6d-b4a4-d87aaeceebd2")
+	)
+	(wire
+		(pts
+			(xy 227.33 74.93) (xy 229.87 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28804f92-c302-4e9f-b730-ce9cd0f2a900")
+	)
+	(wire
+		(pts
+			(xy 107.95 50.8) (xy 107.95 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b12e32b-9417-49f7-bcbb-213923a4bc66")
+	)
+	(wire
+		(pts
+			(xy 52.07 113.03) (xy 52.07 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c045321-d00e-4687-bf25-8a8fd0175cc4")
+	)
+	(wire
+		(pts
+			(xy 190.5 110.49) (xy 194.31 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3093ab20-e40a-4f03-af4a-0a39d5b07cec")
+	)
+	(wire
+		(pts
+			(xy 91.44 124.46) (xy 93.98 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31258afd-689d-469d-bbf9-f806f40c796c")
+	)
+	(wire
+		(pts
+			(xy 107.95 22.86) (xy 107.95 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "336c3546-ee50-430a-9db0-a729e6c69450")
+	)
+	(wire
+		(pts
+			(xy 43.18 130.81) (xy 43.18 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34257947-8480-460f-a9a8-bcd4de72dad2")
+	)
+	(wire
+		(pts
+			(xy 228.6 110.49) (xy 231.14 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3932cd7d-784e-41b1-9de8-d8351bec2050")
+	)
+	(wire
+		(pts
+			(xy 215.9 24.13) (xy 215.9 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a755ba7-c729-422a-926d-a08e7b785288")
+	)
+	(wire
+		(pts
+			(xy 210.82 83.82) (xy 210.82 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b791fa5-3209-4024-a107-35b698bf8424")
+	)
+	(wire
+		(pts
+			(xy 151.13 100.33) (xy 153.67 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d54e1bf-6ddb-4e93-9d09-68d6a5d17add")
+	)
+	(wire
+		(pts
+			(xy 72.39 110.49) (xy 76.2 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d8fc31c-c683-4407-a78e-e0e551243dba")
+	)
+	(wire
+		(pts
+			(xy 130.81 113.03) (xy 134.62 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e4b4328-541d-433f-bd80-0f78f80a4489")
+	)
+	(wire
+		(pts
+			(xy 227.33 100.33) (xy 228.6 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ecd6064-cf6c-4d31-85eb-c27738a57ccf")
+	)
+	(wire
+		(pts
+			(xy 101.6 83.82) (xy 152.4 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f6f10fd-f615-4f2a-97b7-28a24fe25c78")
+	)
+	(wire
+		(pts
+			(xy 227.33 148.59) (xy 229.87 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40f8938c-0e85-4f01-b768-75ee88a5053a")
+	)
+	(wire
+		(pts
+			(xy 228.6 113.03) (xy 228.6 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "412fb814-84a6-4f61-a4d4-b954a4ed239e")
+	)
+	(wire
+		(pts
+			(xy 172.72 113.03) (xy 170.18 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42041e89-1619-41e1-90d7-660d632a709f")
+	)
+	(wire
+		(pts
+			(xy 167.64 24.13) (xy 157.48 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "444ee0cc-f5ee-486f-9edd-ae197aa99653")
+	)
+	(wire
+		(pts
+			(xy 151.13 74.93) (xy 153.67 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44c0ad4d-30a2-450d-8e27-51179cb4b228")
+	)
+	(wire
+		(pts
+			(xy 152.4 107.95) (xy 152.4 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "453f0b05-6678-44b4-bedd-8ab4e066d5ed")
+	)
+	(wire
+		(pts
+			(xy 226.06 24.13) (xy 215.9 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "478fec6c-c26d-4919-9011-4a9a9d538966")
+	)
+	(wire
+		(pts
+			(xy 111.76 74.93) (xy 111.76 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b74115a-d0d1-44f3-a3fa-57896afb4443")
+	)
+	(wire
+		(pts
+			(xy 97.79 22.86) (xy 97.79 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ccae89a-b96a-42d3-9be7-ee79ec7ba2a4")
+	)
+	(wire
+		(pts
+			(xy 34.29 107.95) (xy 43.18 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d145206-e923-4b1e-847e-b19809d356aa")
+	)
+	(wire
+		(pts
+			(xy 229.87 107.95) (xy 231.14 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d8e9665-0708-48d4-9a41-6c29df4d2ca2")
+	)
+	(wire
+		(pts
+			(xy 39.37 50.8) (xy 49.53 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f01aae1-a9ff-494f-82c7-c03c4aaffb2e")
+	)
+	(wire
+		(pts
+			(xy 229.87 115.57) (xy 229.87 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54caa143-3e17-4788-819f-888e2a774e3b")
+	)
+	(wire
+		(pts
+			(xy 130.81 107.95) (xy 134.62 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55744c25-0c34-4e4c-b91d-ce06b2db8480")
+	)
+	(wire
+		(pts
+			(xy 219.71 106.68) (xy 219.71 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "568f9459-a2ee-4c27-beed-0ff319280cc0")
+	)
+	(wire
+		(pts
+			(xy 34.29 83.82) (xy 43.18 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5837a843-a58b-43b1-957b-f065c277550a")
+	)
+	(wire
+		(pts
+			(xy 151.13 124.46) (xy 153.67 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a0eb62e-7247-412d-af5f-673f130f6633")
+	)
+	(wire
+		(pts
+			(xy 49.53 21.59) (xy 49.53 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a826645-69a1-4013-a326-677e40b5e233")
+	)
+	(wire
+		(pts
+			(xy 168.91 124.46) (xy 170.18 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ac041ab-aacf-4e0a-ac6a-23885b89db65")
+	)
+	(wire
+		(pts
+			(xy 33.02 83.82) (xy 34.29 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ba43344-5198-4651-95b4-d56c185931c9")
+	)
+	(wire
+		(pts
+			(xy 109.22 124.46) (xy 110.49 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bb7d7e2-8ee4-41b0-ae6d-559ccf068340")
+	)
+	(wire
+		(pts
+			(xy 248.92 113.03) (xy 252.73 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d4a8d14-ad2e-4dad-ba29-9bf4c2213194")
+	)
+	(wire
+		(pts
+			(xy 210.82 132.08) (xy 219.71 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e477ba4-4637-4190-9cd3-d68122630667")
+	)
+	(wire
+		(pts
+			(xy 50.8 148.59) (xy 53.34 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "615daf3a-c5fb-457b-ab8e-74549eca75fb")
+	)
+	(wire
+		(pts
+			(xy 170.18 100.33) (xy 170.18 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62be3b56-eb32-4312-b665-a72c28c54f3f")
+	)
+	(wire
+		(pts
+			(xy 97.79 40.64) (xy 97.79 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "639d587e-79c1-4c4e-b14e-b4a8a5aa6b69")
+	)
+	(wire
+		(pts
+			(xy 157.48 24.13) (xy 157.48 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "655febad-047b-41f4-9f3b-63792d5d42b6")
+	)
+	(wire
+		(pts
+			(xy 210.82 156.21) (xy 219.71 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6652e867-0715-4b5c-b468-83d0c8bdeeb4")
+	)
+	(wire
+		(pts
+			(xy 107.95 22.86) (xy 97.79 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6874b380-edeb-4573-9779-f4c470de4122")
+	)
+	(wire
+		(pts
+			(xy 152.4 132.08) (xy 152.4 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6899013c-a19b-410c-a3ba-1192a347a1b7")
+	)
+	(wire
+		(pts
+			(xy 248.92 107.95) (xy 252.73 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68c62028-a06a-4ea3-9f4a-0735a46a84a9")
+	)
+	(wire
+		(pts
+			(xy 33.02 33.02) (xy 33.02 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "693a8390-65fe-47eb-9f3d-42f09fb73b09")
+	)
+	(wire
+		(pts
+			(xy 109.22 74.93) (xy 111.76 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ac3f7b5-19f5-4d47-9383-94dc4d319a24")
+	)
+	(wire
+		(pts
+			(xy 229.87 74.93) (xy 229.87 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ef8ec41-8ef8-4655-a6da-7ed979860329")
+	)
+	(wire
+		(pts
+			(xy 209.55 52.07) (xy 215.9 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "709a1fcb-dc5d-4dca-a7b9-ed61dbb3ecc3")
+	)
+	(wire
+		(pts
+			(xy 161.29 83.82) (xy 210.82 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72396a56-feae-48fb-8097-9717d38ceeb6")
+	)
+	(wire
+		(pts
+			(xy 33.02 50.8) (xy 39.37 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7356855d-b051-4c9e-a814-035c4e743f07")
+	)
+	(wire
+		(pts
+			(xy 248.92 110.49) (xy 252.73 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74edfbd7-e95e-4a05-9cb4-abf743de8920")
+	)
+	(wire
+		(pts
+			(xy 72.39 113.03) (xy 76.2 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76bb50f9-17ac-4ac0-a2db-6b8af2fcd7b4")
+	)
+	(wire
+		(pts
+			(xy 92.71 132.08) (xy 101.6 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "786c8068-a52c-455f-9def-2c12511e8bae")
+	)
+	(wire
+		(pts
+			(xy 33.02 50.8) (xy 33.02 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79887209-ba2b-4194-84e5-601f3dd4567e")
+	)
+	(wire
+		(pts
+			(xy 190.5 113.03) (xy 194.31 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b2904c5-ae59-4bd0-b067-72d467cebe27")
+	)
+	(wire
+		(pts
+			(xy 54.61 115.57) (xy 53.34 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7df15add-aeca-4613-9537-238544409cd7")
+	)
+	(wire
+		(pts
+			(xy 92.71 107.95) (xy 101.6 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e0519a2-48da-4b72-a080-9c3930fe6b76")
+	)
+	(wire
+		(pts
+			(xy 52.07 100.33) (xy 52.07 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e331c04-d35f-4e2f-ba27-322c7558cab5")
+	)
+	(wire
+		(pts
+			(xy 110.49 113.03) (xy 110.49 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ebf3397-d27c-4378-a291-69d1ed6b32b7")
+	)
+	(wire
+		(pts
+			(xy 226.06 24.13) (xy 226.06 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f9236af-e069-4d18-99c0-57a0b4cd2840")
+	)
+	(wire
+		(pts
+			(xy 52.07 110.49) (xy 54.61 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "815fd06c-196c-48c0-9fe7-9deba1db662c")
+	)
+	(wire
+		(pts
+			(xy 161.29 130.81) (xy 161.29 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "817de0e5-500a-4706-80f4-51a1db7f9462")
+	)
+	(wire
+		(pts
+			(xy 91.44 22.86) (xy 97.79 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "820b2bc7-bc4d-4cf2-97f9-826ed1b0d2bd")
+	)
+	(wire
+		(pts
+			(xy 109.22 100.33) (xy 110.49 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8314eb3e-34c4-47d5-b0bd-f967b311f348")
+	)
+	(wire
+		(pts
+			(xy 130.81 110.49) (xy 134.62 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85ed6f9a-a55d-4893-b3ae-6aae81d0b482")
+	)
+	(wire
+		(pts
+			(xy 34.29 156.21) (xy 43.18 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8649f9ac-485b-48c6-b19d-3e63d91cc555")
+	)
+	(wire
+		(pts
+			(xy 50.8 100.33) (xy 52.07 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "893cd6be-2b22-4635-962e-6ad99f61c7ff")
+	)
+	(wire
+		(pts
+			(xy 91.44 50.8) (xy 97.79 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d408d2f-7a05-4635-adac-352e6df1af2c")
+	)
+	(wire
+		(pts
+			(xy 171.45 115.57) (xy 171.45 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e5bee13-4801-4029-be1b-7d534e327ccc")
+	)
+	(wire
+		(pts
+			(xy 109.22 148.59) (xy 111.76 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f27e719-06e1-4b47-a7a0-52c683d3820e")
+	)
+	(wire
+		(pts
+			(xy 33.02 100.33) (xy 35.56 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f352185-5dea-4527-a03f-c96813ba4308")
+	)
+	(wire
+		(pts
+			(xy 168.91 74.93) (xy 171.45 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91f49b59-d099-42d6-8645-f595b1566141")
+	)
+	(wire
+		(pts
+			(xy 34.29 132.08) (xy 43.18 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92fa8b24-bf72-4bee-a098-598a80beadb7")
+	)
+	(wire
+		(pts
+			(xy 39.37 40.64) (xy 39.37 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "935976bd-d7a0-42c8-8961-d0cd3e448265")
+	)
+	(wire
+		(pts
+			(xy 161.29 81.28) (xy 161.29 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96103d95-1313-4e1d-a7c1-d7e04dbfa597")
+	)
+	(wire
+		(pts
+			(xy 152.4 107.95) (xy 161.29 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9743428f-18cd-41a0-a360-5aedb1f06fb8")
+	)
+	(wire
+		(pts
+			(xy 209.55 74.93) (xy 212.09 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9959d991-b0e8-41d8-a08f-cb22300fc7a1")
+	)
+	(wire
+		(pts
+			(xy 167.64 22.86) (xy 167.64 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99b03e27-a8eb-4cf8-983f-e1ec45364ec8")
+	)
+	(wire
+		(pts
+			(xy 50.8 74.93) (xy 53.34 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a52388a-ecf0-4776-9adc-166cdef2f282")
+	)
+	(wire
+		(pts
+			(xy 231.14 113.03) (xy 228.6 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a9a8a7f-97c0-4cfd-826e-041cf7be8835")
+	)
+	(wire
+		(pts
+			(xy 92.71 83.82) (xy 101.6 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b534eab-8112-4051-852d-377ebeb0859b")
+	)
+	(wire
+		(pts
+			(xy 167.64 24.13) (xy 167.64 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9edbb616-3531-4462-86eb-6ed246817823")
+	)
+	(wire
+		(pts
+			(xy 157.48 41.91) (xy 157.48 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f2e461b-6029-4337-988c-85737671dead")
+	)
+	(wire
+		(pts
+			(xy 152.4 83.82) (xy 161.29 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1cd1eb8-6e40-4a5a-9f3d-7ee4c28e02ec")
+	)
+	(wire
+		(pts
+			(xy 215.9 41.91) (xy 215.9 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a63d13c9-f7b4-4aaa-9c3f-ef6b22d980aa")
+	)
+	(wire
+		(pts
+			(xy 34.29 107.95) (xy 34.29 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa7505c4-767b-493c-8179-3a1a3792b9ea")
+	)
+	(wire
+		(pts
+			(xy 219.71 130.81) (xy 219.71 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aef33d07-25b5-4dff-8f1b-698145208c87")
+	)
+	(wire
+		(pts
+			(xy 226.06 52.07) (xy 226.06 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b10e2a3f-9eb0-4f81-b93f-2c4aa6cc36a1")
+	)
+	(wire
+		(pts
+			(xy 92.71 156.21) (xy 101.6 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1be29e1-3afc-4644-a4e3-52187ae360a8")
+	)
+	(wire
+		(pts
+			(xy 161.29 154.94) (xy 161.29 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b28bf12d-c196-45a8-b1f8-06d7837e8622")
+	)
+	(wire
+		(pts
+			(xy 151.13 52.07) (xy 151.13 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4982613-11c3-4fcc-8e8f-4174afabb3de")
+	)
+	(wire
+		(pts
+			(xy 161.29 106.68) (xy 161.29 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4f6029b-790f-403d-9e28-985f51a29689")
+	)
+	(wire
+		(pts
+			(xy 210.82 107.95) (xy 219.71 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6bae25b-b78f-403d-bfe4-5f33095eebab")
+	)
+	(wire
+		(pts
+			(xy 113.03 115.57) (xy 111.76 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6d8a4d8-c6f4-4899-be18-bf7d0e246269")
+	)
+	(wire
+		(pts
+			(xy 219.71 81.28) (xy 219.71 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b788bc81-195c-4343-ad50-7dafd0dfc0b2")
+	)
+	(wire
+		(pts
+			(xy 210.82 107.95) (xy 210.82 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8a88578-c1fe-4d6d-aa82-0dd10ee67991")
+	)
+	(wire
+		(pts
+			(xy 101.6 81.28) (xy 101.6 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9b60d90-11c7-4be8-83f4-55c7e10dfd63")
+	)
+	(wire
+		(pts
+			(xy 107.95 21.59) (xy 107.95 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba3e491b-f862-417f-9b01-c1449744e3db")
+	)
+	(wire
+		(pts
+			(xy 43.18 81.28) (xy 43.18 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbaaca29-6b8f-4275-bf22-d244e78ea68b")
+	)
+	(wire
+		(pts
+			(xy 72.39 115.57) (xy 76.2 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf493911-badd-427e-b3d0-5bd18f282a98")
+	)
+	(wire
+		(pts
+			(xy 101.6 154.94) (xy 101.6 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0b7aef8-f2e8-46ba-b7b2-a6f30ab3ea5d")
+	)
+	(wire
+		(pts
+			(xy 219.71 154.94) (xy 219.71 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c36e2373-943c-4709-bba2-86ebd97e3008")
+	)
+	(wire
+		(pts
+			(xy 231.14 115.57) (xy 229.87 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5380626-0bc9-4090-9107-2782c13a75b4")
+	)
+	(wire
+		(pts
+			(xy 53.34 107.95) (xy 54.61 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c56e9ed2-014c-4c50-b9bf-10bd1aff43d0")
+	)
+	(wire
+		(pts
+			(xy 215.9 52.07) (xy 226.06 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6efb909-0975-4196-b64f-c80b70fd8952")
+	)
+	(wire
+		(pts
+			(xy 210.82 83.82) (xy 219.71 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7536919-901d-4a06-bb89-bdf60388c143")
+	)
+	(wire
+		(pts
+			(xy 113.03 113.03) (xy 110.49 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c902f6f3-5d6c-4e1f-a30f-05b502d1c224")
+	)
+	(wire
+		(pts
+			(xy 54.61 113.03) (xy 52.07 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c91eed8b-9dd1-469f-97c4-13b1beda195a")
+	)
+	(wire
+		(pts
+			(xy 49.53 49.53) (xy 49.53 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb12fc27-475a-4908-ba9e-9d63e92b158b")
+	)
+	(wire
+		(pts
+			(xy 92.71 83.82) (xy 92.71 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdd5433d-3bba-4aa1-980e-dfa4317e0950")
+	)
+	(wire
+		(pts
+			(xy 209.55 124.46) (xy 212.09 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf0fb454-a07e-4176-ba9f-2a6ca9e6267a")
+	)
+	(wire
+		(pts
+			(xy 92.71 132.08) (xy 92.71 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0856770-0b12-4df3-b096-f3bd5727afd2")
+	)
+	(wire
+		(pts
+			(xy 101.6 130.81) (xy 101.6 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1327573-6a4f-4631-87e3-1ecbe37c962f")
+	)
+	(wire
+		(pts
+			(xy 50.8 124.46) (xy 52.07 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d152a78d-1954-4a31-bdd8-3f2558e26239")
+	)
+	(wire
+		(pts
+			(xy 33.02 124.46) (xy 35.56 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d43f8ea6-d556-4256-b437-f59c368a9b40")
+	)
+	(wire
+		(pts
+			(xy 101.6 106.68) (xy 101.6 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d67d320d-45f3-4d1c-9b7f-b9c6e77e1f34")
+	)
+	(wire
+		(pts
+			(xy 53.34 115.57) (xy 53.34 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d74386a4-83f2-47e5-8fc0-b430f4880ca8")
+	)
+	(wire
+		(pts
+			(xy 91.44 50.8) (xy 91.44 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d782128c-4c08-4274-888d-4d14f08d7a29")
+	)
+	(wire
+		(pts
+			(xy 190.5 107.95) (xy 194.31 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8063be7-1584-4080-9d30-db4e6b2308c4")
+	)
+	(wire
+		(pts
+			(xy 157.48 52.07) (xy 167.64 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9aee805-9da8-480f-b4a0-0aff6115aac6")
+	)
+	(wire
+		(pts
+			(xy 91.44 148.59) (xy 93.98 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dadff5bc-8e92-413d-a4e0-73a93b7c64b6")
+	)
+	(wire
+		(pts
+			(xy 107.95 49.53) (xy 107.95 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dba3be7a-e252-41f6-8bc8-5e004c05c03d")
+	)
+	(wire
+		(pts
+			(xy 168.91 148.59) (xy 171.45 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd146021-dccc-401e-ac36-15cbba7b7937")
+	)
+	(wire
+		(pts
+			(xy 49.53 22.86) (xy 49.53 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df59e561-e58f-4fc8-9701-0cae2b60e985")
+	)
+	(wire
+		(pts
+			(xy 53.34 74.93) (xy 53.34 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e01579a4-b3eb-4366-9f7d-12e1d46eb773")
+	)
+	(wire
+		(pts
+			(xy 110.49 110.49) (xy 113.03 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0c7d70e-edb1-4a64-a21e-e26f051da347")
+	)
+	(wire
+		(pts
+			(xy 91.44 33.02) (xy 91.44 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e19e4f4e-9ce5-423a-b877-8a80dad615c3")
+	)
+	(wire
+		(pts
+			(xy 151.13 52.07) (xy 157.48 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4461865-d1ca-4e69-8738-85e0597fd1b9")
+	)
+	(wire
+		(pts
+			(xy 72.39 107.95) (xy 76.2 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9faa13c-fd9c-494c-b4db-924e2b9310ac")
+	)
+	(wire
+		(pts
+			(xy 91.44 74.93) (xy 93.98 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea390dff-e479-4d07-8a6e-94a8dcb96147")
+	)
+	(wire
+		(pts
+			(xy 167.64 50.8) (xy 167.64 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed467580-2116-48b3-a7f7-61b9a6959d56")
+	)
+	(wire
+		(pts
+			(xy 43.18 154.94) (xy 43.18 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edc37abc-cd0a-4beb-85eb-d6b7d3020c40")
+	)
+	(wire
+		(pts
+			(xy 43.18 83.82) (xy 92.71 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efb1fbbf-868b-4832-951d-7f7d89da09a0")
+	)
+	(wire
+		(pts
+			(xy 151.13 34.29) (xy 151.13 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f208573f-6bb8-459d-b23b-529f2a423bc2")
+	)
+	(wire
+		(pts
+			(xy 172.72 115.57) (xy 171.45 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2243afb-5cbd-48ca-9201-eab3ca28bb65")
+	)
+	(wire
+		(pts
+			(xy 111.76 107.95) (xy 113.03 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f47875a2-adc3-492c-b2bc-fab231c157f3")
+	)
+	(wire
+		(pts
+			(xy 209.55 24.13) (xy 215.9 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f56ad69c-2bc0-4d31-8fc4-ab5febf2085c")
+	)
+	(wire
+		(pts
+			(xy 39.37 22.86) (xy 39.37 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f61e0dc3-839d-445b-9f74-9247a35905f8")
+	)
+	(wire
+		(pts
+			(xy 228.6 100.33) (xy 228.6 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7b8b744-1b23-45c7-8d3a-e64e2ff8b68f")
+	)
+	(wire
+		(pts
+			(xy 130.81 115.57) (xy 134.62 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fad54227-b64f-43ea-ac4e-af4a4c911f81")
+	)
+	(wire
+		(pts
+			(xy 226.06 50.8) (xy 226.06 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "febf36f3-b86e-449f-8d6e-e879c11c79dd")
+	)
+	(wire
+		(pts
+			(xy 209.55 148.59) (xy 212.09 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff09f0a6-9556-4845-bd91-0511010157ab")
+	)
+	(wire
+		(pts
+			(xy 34.29 83.82) (xy 34.29 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff2cd207-804d-45a0-a452-37e83b375308")
+	)
+	(wire
+		(pts
+			(xy 209.55 100.33) (xy 212.09 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff41b287-a2ea-44d7-a4d2-ef03230d9c93")
+	)
+	(hierarchical_label "OUT11"
+		(shape output)
+		(at 194.31 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "031d90f9-772d-428e-8cdc-1fd16db192f6")
+	)
+	(hierarchical_label "OUT7"
+		(shape output)
+		(at 134.62 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0a10e4b8-9935-4076-8d44-6e2e5940bb6b")
+	)
+	(hierarchical_label "+5V"
+		(shape input)
+		(at 52.07 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0a267b70-5051-42fd-a2d6-9b285d60ec03")
+	)
+	(hierarchical_label "OUT14"
+		(shape output)
+		(at 252.73 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0ee1acfc-50e3-471a-93e6-bb510c7c2a4e")
+	)
+	(hierarchical_label "IN0"
+		(shape input)
+		(at 33.02 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1cc74285-5b65-4256-a1ff-dd0790c2109b")
+	)
+	(hierarchical_label "OUT1"
+		(shape output)
+		(at 76.2 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f2dea09-e0b8-4adc-8c6b-8e753031d788")
+	)
+	(hierarchical_label "IN6"
+		(shape input)
+		(at 91.44 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2395385c-fd54-4e77-9b7a-79c88686e0ac")
+	)
+	(hierarchical_label "OUT10"
+		(shape output)
+		(at 194.31 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2b934da9-9af5-4966-8031-e659ca23e7bc")
+	)
+	(hierarchical_label "EN"
+		(shape input)
+		(at 33.02 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33cc871c-680c-4ab9-8643-b2633f911162")
+	)
+	(hierarchical_label "IN8"
+		(shape input)
+		(at 151.13 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "34a2d5fb-f245-4aa6-841f-404b93797328")
+	)
+	(hierarchical_label "IN15"
+		(shape input)
+		(at 209.55 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3ef46b15-3195-4145-834b-f4e475ed6f91")
+	)
+	(hierarchical_label "OUT15"
+		(shape output)
+		(at 252.73 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "48499785-f38e-4250-8550-831e7e0e04c4")
+	)
+	(hierarchical_label "OUT12"
+		(shape output)
+		(at 252.73 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4efbaef0-3f4b-42cc-bd30-72a0ca9d4473")
+	)
+	(hierarchical_label "IN10"
+		(shape input)
+		(at 151.13 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "52a039f6-bfcf-47d8-94b0-3fe8d443f21c")
+	)
+	(hierarchical_label "IN9"
+		(shape input)
+		(at 151.13 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "52dd6c04-ea40-4159-9fa7-4ad403a30a12")
+	)
+	(hierarchical_label "OUT4"
+		(shape output)
+		(at 134.62 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "54596d8f-19c1-48ae-8454-c4e8678944df")
+	)
+	(hierarchical_label "IN1"
+		(shape input)
+		(at 33.02 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "60d234ab-6445-45f7-8925-94eb870132a9")
+	)
+	(hierarchical_label "IN11"
+		(shape input)
+		(at 151.13 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "626fed04-f35b-4110-a7ee-0f6d6c982c7d")
+	)
+	(hierarchical_label "OUT0"
+		(shape output)
+		(at 76.2 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "774b6a65-e363-4329-8800-149a06f2a267")
+	)
+	(hierarchical_label "IN13"
+		(shape input)
+		(at 209.55 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7b5e226f-2c87-4811-b74b-88a1c9195bca")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 52.07 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "841fb57f-6aea-4632-9519-7ca7f15fbb2f")
+	)
+	(hierarchical_label "IN14"
+		(shape input)
+		(at 209.55 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8997f69b-1478-4291-ae4e-0ae20ba69622")
+	)
+	(hierarchical_label "OUT13"
+		(shape output)
+		(at 252.73 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8fada1ca-f635-4b7f-bf1f-c884699ba610")
+	)
+	(hierarchical_label "OUT6"
+		(shape output)
+		(at 134.62 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d580689-eefa-49a0-b69c-2ed25f169a1b")
+	)
+	(hierarchical_label "IN4"
+		(shape input)
+		(at 91.44 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "adc3af6f-1a0f-4fba-8325-6522ff4c0155")
+	)
+	(hierarchical_label "IN12"
+		(shape input)
+		(at 209.55 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b1add0ef-d573-4980-97a4-ae130cc0334e")
+	)
+	(hierarchical_label "IN7"
+		(shape input)
+		(at 91.44 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc55b8d1-5a3d-4482-91e5-bd80821b548c")
+	)
+	(hierarchical_label "IN3"
+		(shape input)
+		(at 33.02 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bd8cbbdd-b72e-49b8-aef1-4a16ef103af2")
+	)
+	(hierarchical_label "IN2"
+		(shape input)
+		(at 33.02 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d295d181-76ba-42b2-819f-77773fc166ac")
+	)
+	(hierarchical_label "OUT5"
+		(shape output)
+		(at 134.62 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5de2d71-8dc6-4f44-b540-c0be983767a0")
+	)
+	(hierarchical_label "OUT3"
+		(shape output)
+		(at 76.2 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5ed390e-3144-438e-b152-97d631ba2b78")
+	)
+	(hierarchical_label "OUT2"
+		(shape output)
+		(at 76.2 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f21b73d3-8676-4aef-b196-2b38b579ebcd")
+	)
+	(hierarchical_label "OUT9"
+		(shape output)
+		(at 194.31 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f708fc5c-e1f6-4c0c-a3fd-71d8c709bcd0")
+	)
+	(hierarchical_label "IN5"
+		(shape input)
+		(at 91.44 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fbf05dc1-0f3f-4191-b654-bb80326f89d5")
+	)
+	(hierarchical_label "OUT8"
+		(shape output)
+		(at 194.31 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ffdb0549-0ef4-4192-93bb-5aec62195e98")
+	)
+	(symbol
+		(lib_id "74xx:74AHCT125")
+		(at 107.95 36.83 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "030cf1d3-8f34-483a-9451-8bb605563c9a")
+		(property "Reference" "U4"
+			(at 114.3 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74AHCT125"
+			(at 114.3 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 107.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
+			(at 107.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
+			(at 107.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "33cad190-0f77-4039-a310-830142032e92")
+		)
+		(pin "1"
+			(uuid "7d1c290b-bf6b-4e08-8c64-782e595f5172")
+		)
+		(pin "3"
+			(uuid "bc5423f9-bed1-4da2-8dcd-4f330fff25ea")
+		)
+		(pin "5"
+			(uuid "283d3a9e-d106-4f0c-8b0b-382dcfba2eca")
+		)
+		(pin "4"
+			(uuid "07e39a84-e8ba-433a-a7d8-6eda2f569c45")
+		)
+		(pin "6"
+			(uuid "7da0c188-8ff0-4aa0-b3fc-35fe5b17318d")
+		)
+		(pin "9"
+			(uuid "0d7317e2-c4d8-40ba-af4c-7dd2f69a5a67")
+		)
+		(pin "10"
+			(uuid "99e5c720-fc88-410e-b655-c012d64af202")
+		)
+		(pin "8"
+			(uuid "d59745f4-c9ca-4e9f-818b-808296c22088")
+		)
+		(pin "12"
+			(uuid "8e66722e-0261-42bb-9f26-13775c900af2")
+		)
+		(pin "13"
+			(uuid "136eb6c7-a038-4f8b-849b-ce62f5c3b772")
+		)
+		(pin "11"
+			(uuid "855654b4-e97c-4528-bb9e-94b3acc0e9e8")
+		)
+		(pin "14"
+			(uuid "ed107d57-7922-4be9-b3a9-9c81f44ce0f6")
+		)
+		(pin "7"
+			(uuid "bde8d79c-c683-4caa-8ef9-5f9f2b000cef")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "U4")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 151.13 38.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03bffe6f-2d59-4c8a-b4fa-1ccc83dcd7f2")
+		(property "Reference" "C8"
+			(at 150.876 36.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 150.622 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 150.1648 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 151.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "debe8376-7997-418f-8193-3597351ee825")
+		)
+		(pin "1"
+			(uuid "43093cc6-1061-4b22-a067-d3d4eb6acbc4")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74AHCT125")
+		(at 161.29 124.46 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11aac401-458a-4107-8007-e28106e528b3")
+		(property "Reference" "U5"
+			(at 161.29 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHCT125"
+			(at 161.29 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 161.29 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
+			(at 161.29 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
+			(at 161.29 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "33cad190-0f77-4039-a310-830142032e91")
+		)
+		(pin "1"
+			(uuid "7d1c290b-bf6b-4e08-8c64-782e595f5171")
+		)
+		(pin "3"
+			(uuid "bc5423f9-bed1-4da2-8dcd-4f330fff25e9")
+		)
+		(pin "5"
+			(uuid "283d3a9e-d106-4f0c-8b0b-382dcfba2ec7")
+		)
+		(pin "4"
+			(uuid "07e39a84-e8ba-433a-a7d8-6eda2f569c42")
+		)
+		(pin "6"
+			(uuid "7da0c188-8ff0-4aa0-b3fc-35fe5b17318a")
+		)
+		(pin "9"
+			(uuid "95131d77-4352-46f3-9585-d4b33c3e3d01")
+		)
+		(pin "10"
+			(uuid "448e525b-02db-40ed-b824-3b0395bd0b84")
+		)
+		(pin "8"
+			(uuid "235ec6fd-c09a-4d84-aefb-16b70031742d")
+		)
+		(pin "12"
+			(uuid "8e66722e-0261-42bb-9f26-13775c900af0")
+		)
+		(pin "13"
+			(uuid "136eb6c7-a038-4f8b-849b-ce62f5c3b770")
+		)
+		(pin "11"
+			(uuid "855654b4-e97c-4528-bb9e-94b3acc0e9e6")
+		)
+		(pin "14"
+			(uuid "015b6e17-6b19-4b8a-aa98-3026f5287eca")
+		)
+		(pin "7"
+			(uuid "2d2166b0-1478-4c6d-89cf-8df0708d9811")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "U5")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74AHCT125")
+		(at 161.29 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1cdb55df-eaf4-424b-8c4e-90ba0d1a8eef")
+		(property "Reference" "U5"
+			(at 161.29 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHCT125"
+			(at 161.29 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 161.29 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
+			(at 161.29 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
+			(at 161.29 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e23fc71b-768b-48b6-9656-fa1c2e60ae29")
+		)
+		(pin "1"
+			(uuid "d8d5a685-0f5b-4e36-9279-5d60ccca28cf")
+		)
+		(pin "3"
+			(uuid "5e094faa-e7e7-4d9d-8a51-9eec3d4bd071")
+		)
+		(pin "5"
+			(uuid "283d3a9e-d106-4f0c-8b0b-382dcfba2ece")
+		)
+		(pin "4"
+			(uuid "07e39a84-e8ba-433a-a7d8-6eda2f569c49")
+		)
+		(pin "6"
+			(uuid "7da0c188-8ff0-4aa0-b3fc-35fe5b173191")
+		)
+		(pin "9"
+			(uuid "0d7317e2-c4d8-40ba-af4c-7dd2f69a5a6b")
+		)
+		(pin "10"
+			(uuid "99e5c720-fc88-410e-b655-c012d64af206")
+		)
+		(pin "8"
+			(uuid "d59745f4-c9ca-4e9f-818b-808296c2208c")
+		)
+		(pin "12"
+			(uuid "8e66722e-0261-42bb-9f26-13775c900af6")
+		)
+		(pin "13"
+			(uuid "136eb6c7-a038-4f8b-849b-ce62f5c3b776")
+		)
+		(pin "11"
+			(uuid "855654b4-e97c-4528-bb9e-94b3acc0e9ec")
+		)
+		(pin "14"
+			(uuid "015b6e17-6b19-4b8a-aa98-3026f5287ecd")
+		)
+		(pin "7"
+			(uuid "2d2166b0-1478-4c6d-89cf-8df0708d9814")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:EXB-28V220JX")
+		(at 113.03 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d25f49d-ff99-49c8-a783-4737d8a3d5d2")
+		(property "Reference" "R16"
+			(at 121.92 100.33 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "EXB-28V220JX"
+			(at 121.92 102.87 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:EXB28V_PAN"
+			(at 113.03 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "EXB-28V220JX"
+			(at 113.03 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0e531b6d-5fa1-4250-a8f9-f89a704e7032")
+		)
+		(pin "3"
+			(uuid "4c13da26-c96d-46e1-bf39-e84576899a7a")
+		)
+		(pin "4"
+			(uuid "34727017-b942-4de5-9db3-400f0b408523")
+		)
+		(pin "8"
+			(uuid "fce79a99-eb30-4184-ae86-561e10fc232b")
+		)
+		(pin "7"
+			(uuid "20aeaa05-1eb4-4c03-a201-06c7f324d8ba")
+		)
+		(pin "6"
+			(uuid "d0ad4816-9322-4dca-b551-3ead7db14f9d")
+		)
+		(pin "5"
+			(uuid "32ca3a1c-3b69-456d-bbde-6b0c436b8e56")
+		)
+		(pin "1"
+			(uuid "c9e5286c-ca88-41ed-903b-1749ef880638")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74AHCT125")
+		(at 167.64 38.1 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21ff2d23-b317-4cdb-9493-91a63099f2e9")
+		(property "Reference" "U5"
+			(at 173.99 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74AHCT125"
+			(at 173.99 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 167.64 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
+			(at 167.64 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
+			(at 167.64 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "33cad190-0f77-4039-a310-830142032e93")
+		)
+		(pin "1"
+			(uuid "7d1c290b-bf6b-4e08-8c64-782e595f5173")
+		)
+		(pin "3"
+			(uuid "bc5423f9-bed1-4da2-8dcd-4f330fff25eb")
+		)
+		(pin "5"
+			(uuid "283d3a9e-d106-4f0c-8b0b-382dcfba2ecb")
+		)
+		(pin "4"
+			(uuid "07e39a84-e8ba-433a-a7d8-6eda2f569c46")
+		)
+		(pin "6"
+			(uuid "7da0c188-8ff0-4aa0-b3fc-35fe5b17318e")
+		)
+		(pin "9"
+			(uuid "0d7317e2-c4d8-40ba-af4c-7dd2f69a5a68")
+		)
+		(pin "10"
+			(uuid "99e5c720-fc88-410e-b655-c012d64af203")
+		)
+		(pin "8"
+			(uuid "d59745f4-c9ca-4e9f-818b-808296c22089")
+		)
+		(pin "12"
+			(uuid "8e66722e-0261-42bb-9f26-13775c900af3")
+		)
+		(pin "13"
+			(uuid "136eb6c7-a038-4f8b-849b-ce62f5c3b773")
+		)
+		(pin "11"
+			(uuid "855654b4-e97c-4528-bb9e-94b3acc0e9e9")
+		)
+		(pin "14"
+			(uuid "4909ea4f-9ff4-4568-90fc-c745b742bf75")
+		)
+		(pin "7"
+			(uuid "ccf23d79-d62e-43b6-94e2-02b0817c2d6c")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "U5")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74AHCT125")
+		(at 101.6 100.33 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "231da3ae-1de6-4d69-89c8-0027c742ba78")
+		(property "Reference" "U4"
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHCT125"
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 101.6 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
+			(at 101.6 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
+			(at 101.6 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "33cad190-0f77-4039-a310-830142032e8f")
+		)
+		(pin "1"
+			(uuid "7d1c290b-bf6b-4e08-8c64-782e595f516f")
+		)
+		(pin "3"
+			(uuid "bc5423f9-bed1-4da2-8dcd-4f330fff25e7")
+		)
+		(pin "5"
+			(uuid "af13c8e3-4dda-45f1-8ef0-cf8466c69ea0")
+		)
+		(pin "4"
+			(uuid "593e2d7d-ff32-4dda-82ab-64e506ab4a58")
+		)
+		(pin "6"
+			(uuid "ffdbf981-a59f-46f1-8572-5cc8cd7d43f8")
+		)
+		(pin "9"
+			(uuid "0d7317e2-c4d8-40ba-af4c-7dd2f69a5a64")
+		)
+		(pin "10"
+			(uuid "99e5c720-fc88-410e-b655-c012d64af1ff")
+		)
+		(pin "8"
+			(uuid "d59745f4-c9ca-4e9f-818b-808296c22085")
+		)
+		(pin "12"
+			(uuid "8e66722e-0261-42bb-9f26-13775c900aef")
+		)
+		(pin "13"
+			(uuid "136eb6c7-a038-4f8b-849b-ce62f5c3b76f")
+		)
+		(pin "11"
+			(uuid "855654b4-e97c-4528-bb9e-94b3acc0e9e5")
+		)
+		(pin "14"
+			(uuid "015b6e17-6b19-4b8a-aa98-3026f5287ec6")
+		)
+		(pin "7"
+			(uuid "2d2166b0-1478-4c6d-89cf-8df0708d980d")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "U4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25607570-82b5-4f86-9028-eafd6a5be035")
+		(property "Reference" "#PWR031"
+			(at 49.53 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73d5eb05-2142-43f8-b55a-0f928b336b17")
+		)
+		(instances
+			(project ""
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 49.53 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "311ed86e-2dd2-4ef4-9af7-5851c46c9999")
+		(property "Reference" "#PWR032"
+			(at 49.53 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 49.53 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 49.53 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ca27c60-421d-4d58-97d8-f188147f5f19")
+		)
+		(instances
+			(project ""
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74AHCT125")
+		(at 226.06 38.1 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3268d0de-8217-43fd-81ce-c5b89a2e9a32")
+		(property "Reference" "U6"
+			(at 232.41 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74AHCT125"
+			(at 232.41 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 226.06 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
+			(at 226.06 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
+			(at 226.06 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "33cad190-0f77-4039-a310-830142032e94")
+		)
+		(pin "1"
+			(uuid "7d1c290b-bf6b-4e08-8c64-782e595f5174")
+		)
+		(pin "3"
+			(uuid "bc5423f9-bed1-4da2-8dcd-4f330fff25ec")
+		)
+		(pin "5"
+			(uuid "283d3a9e-d106-4f0c-8b0b-382dcfba2ecc")
+		)
+		(pin "4"
+			(uuid "07e39a84-e8ba-433a-a7d8-6eda2f569c47")
+		)
+		(pin "6"
+			(uuid "7da0c188-8ff0-4aa0-b3fc-35fe5b17318f")
+		)
+		(pin "9"
+			(uuid "0d7317e2-c4d8-40ba-af4c-7dd2f69a5a69")
+		)
+		(pin "10"
+			(uuid "99e5c720-fc88-410e-b655-c012d64af204")
+		)
+		(pin "8"
+			(uuid "d59745f4-c9ca-4e9f-818b-808296c2208a")
+		)
+		(pin "12"
+			(uuid "8e66722e-0261-42bb-9f26-13775c900af4")
+		)
+		(pin "13"
+			(uuid "136eb6c7-a038-4f8b-849b-ce62f5c3b774")
+		)
+		(pin "11"
+			(uuid "855654b4-e97c-4528-bb9e-94b3acc0e9ea")
+		)
+		(pin "14"
+			(uuid "3e3f5d6e-55af-4b36-80a9-481f62287591")
+		)
+		(pin "7"
+			(uuid "7afa0eaa-91cd-47da-b854-913ab5e53cd6")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "U6")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74AHCT125")
+		(at 219.71 148.59 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39c9d657-9b4c-4624-a983-26e24d6d3680")
+		(property "Reference" "U6"
+			(at 219.71 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHCT125"
+			(at 219.71 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 219.71 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
+			(at 219.71 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
+			(at 219.71 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "33cad190-0f77-4039-a310-830142032e90")
+		)
+		(pin "1"
+			(uuid "7d1c290b-bf6b-4e08-8c64-782e595f5170")
+		)
+		(pin "3"
+			(uuid "bc5423f9-bed1-4da2-8dcd-4f330fff25e8")
+		)
+		(pin "5"
+			(uuid "283d3a9e-d106-4f0c-8b0b-382dcfba2ec8")
+		)
+		(pin "4"
+			(uuid "07e39a84-e8ba-433a-a7d8-6eda2f569c43")
+		)
+		(pin "6"
+			(uuid "7da0c188-8ff0-4aa0-b3fc-35fe5b17318b")
+		)
+		(pin "9"
+			(uuid "0d7317e2-c4d8-40ba-af4c-7dd2f69a5a65")
+		)
+		(pin "10"
+			(uuid "99e5c720-fc88-410e-b655-c012d64af200")
+		)
+		(pin "8"
+			(uuid "d59745f4-c9ca-4e9f-818b-808296c22086")
+		)
+		(pin "12"
+			(uuid "d9855809-44fc-4ed7-8eaf-6db2d5682706")
+		)
+		(pin "13"
+			(uuid "e1a2e391-3c7f-40bd-84c0-846e583ee61a")
+		)
+		(pin "11"
+			(uuid "04faa446-6818-471e-9d4c-5553135b27f4")
+		)
+		(pin "14"
+			(uuid "015b6e17-6b19-4b8a-aa98-3026f5287ec7")
+		)
+		(pin "7"
+			(uuid "2d2166b0-1478-4c6d-89cf-8df0708d980e")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "U6")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74AHCT125")
+		(at 101.6 124.46 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b1c722d-16c5-4d6c-a711-8f00cbdc333a")
+		(property "Reference" "U4"
+			(at 101.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHCT125"
+			(at 101.6 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 101.6 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
+			(at 101.6 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
+			(at 101.6 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "33cad190-0f77-4039-a310-830142032e8e")
+		)
+		(pin "1"
+			(uuid "7d1c290b-bf6b-4e08-8c64-782e595f516e")
+		)
+		(pin "3"
+			(uuid "bc5423f9-bed1-4da2-8dcd-4f330fff25e6")
+		)
+		(pin "5"
+			(uuid "283d3a9e-d106-4f0c-8b0b-382dcfba2ec6")
+		)
+		(pin "4"
+			(uuid "07e39a84-e8ba-433a-a7d8-6eda2f569c41")
+		)
+		(pin "6"
+			(uuid "7da0c188-8ff0-4aa0-b3fc-35fe5b173189")
+		)
+		(pin "9"
+			(uuid "ca6a43f1-3bef-4e1d-a85b-6e8bb50773c7")
+		)
+		(pin "10"
+			(uuid "855ff107-ead6-4c71-b62c-72b7f064d20c")
+		)
+		(pin "8"
+			(uuid "8b6f5af3-4446-4e3a-8994-675de8ed54a2")
+		)
+		(pin "12"
+			(uuid "8e66722e-0261-42bb-9f26-13775c900aee")
+		)
+		(pin "13"
+			(uuid "136eb6c7-a038-4f8b-849b-ce62f5c3b76e")
+		)
+		(pin "11"
+			(uuid "855654b4-e97c-4528-bb9e-94b3acc0e9e4")
+		)
+		(pin "14"
+			(uuid "015b6e17-6b19-4b8a-aa98-3026f5287ec5")
+		)
+		(pin "7"
+			(uuid "2d2166b0-1478-4c6d-89cf-8df0708d980c")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "U4")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:EXB-28V220JX")
+		(at 172.72 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d2e0f44-1c3e-486f-bb75-fdba19bc15fb")
+		(property "Reference" "R17"
+			(at 181.61 100.33 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "EXB-28V220JX"
+			(at 181.61 102.87 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:EXB28V_PAN"
+			(at 172.72 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "EXB-28V220JX"
+			(at 172.72 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "160be433-6fc0-42ff-bfbc-bc310c4fdb5e")
+		)
+		(pin "3"
+			(uuid "9099636d-754a-4f24-9222-04f909c17c86")
+		)
+		(pin "4"
+			(uuid "6a2d048e-2ebf-47c4-a032-b78ba35d7553")
+		)
+		(pin "8"
+			(uuid "4d54274e-519a-4ba3-b07b-c6c858d4be6b")
+		)
+		(pin "7"
+			(uuid "f8598b96-e0e6-4286-a269-79e11bda06ff")
+		)
+		(pin "6"
+			(uuid "080d40a4-bf5d-4efd-8674-212adec48164")
+		)
+		(pin "5"
+			(uuid "3649b4c7-1888-4d17-9742-8a54b1dbd2f1")
+		)
+		(pin "1"
+			(uuid "6d132a7b-7811-4c49-a338-4cb261d2f88d")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 33.02 36.83 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d836d94-fbfa-4e72-b5fb-0eb68368f601")
+		(property "Reference" "C4"
+			(at 32.766 34.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 32.512 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 32.0548 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 33.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e3d3f78d-98ef-436d-a33e-36a233579a9e")
+		)
+		(pin "1"
+			(uuid "56390636-5036-4414-885a-6382b52a40dc")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74AHCT125")
+		(at 43.18 148.59 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ec35fbe-0925-4cc3-9caa-4585030f7eaf")
+		(property "Reference" "U3"
+			(at 43.18 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHCT125"
+			(at 43.18 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 43.18 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
+			(at 43.18 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
+			(at 43.18 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "33cad190-0f77-4039-a310-830142032e95")
+		)
+		(pin "1"
+			(uuid "7d1c290b-bf6b-4e08-8c64-782e595f5175")
+		)
+		(pin "3"
+			(uuid "bc5423f9-bed1-4da2-8dcd-4f330fff25ed")
+		)
+		(pin "5"
+			(uuid "283d3a9e-d106-4f0c-8b0b-382dcfba2ec9")
+		)
+		(pin "4"
+			(uuid "07e39a84-e8ba-433a-a7d8-6eda2f569c44")
+		)
+		(pin "6"
+			(uuid "7da0c188-8ff0-4aa0-b3fc-35fe5b17318c")
+		)
+		(pin "9"
+			(uuid "0d7317e2-c4d8-40ba-af4c-7dd2f69a5a66")
+		)
+		(pin "10"
+			(uuid "99e5c720-fc88-410e-b655-c012d64af201")
+		)
+		(pin "8"
+			(uuid "d59745f4-c9ca-4e9f-818b-808296c22087")
+		)
+		(pin "12"
+			(uuid "6cce1112-04b4-4700-a75b-14b9463f218b")
+		)
+		(pin "13"
+			(uuid "42fd5310-b0b8-434a-bf53-efc1e3e0dbbd")
+		)
+		(pin "11"
+			(uuid "79f406a7-1e55-46a6-bfd7-83bb5b39fdba")
+		)
+		(pin "14"
+			(uuid "015b6e17-6b19-4b8a-aa98-3026f5287ec8")
+		)
+		(pin "7"
+			(uuid "2d2166b0-1478-4c6d-89cf-8df0708d980f")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "U3")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74AHCT125")
+		(at 219.71 100.33 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40af136e-bbb8-40cf-ac4c-0686a67c6d86")
+		(property "Reference" "U6"
+			(at 219.71 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHCT125"
+			(at 219.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 219.71 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
+			(at 219.71 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
+			(at 219.71 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "33cad190-0f77-4039-a310-830142032e96")
+		)
+		(pin "1"
+			(uuid "7d1c290b-bf6b-4e08-8c64-782e595f5176")
+		)
+		(pin "3"
+			(uuid "bc5423f9-bed1-4da2-8dcd-4f330fff25ee")
+		)
+		(pin "5"
+			(uuid "5bed1a79-4350-4d4f-ac2b-c44955737f4b")
+		)
+		(pin "4"
+			(uuid "ee2d0c79-5882-47b7-a254-1028da093a03")
+		)
+		(pin "6"
+			(uuid "a8ce08db-13e5-4194-a03a-ee7ebc660e86")
+		)
+		(pin "9"
+			(uuid "0d7317e2-c4d8-40ba-af4c-7dd2f69a5a6a")
+		)
+		(pin "10"
+			(uuid "99e5c720-fc88-410e-b655-c012d64af205")
+		)
+		(pin "8"
+			(uuid "d59745f4-c9ca-4e9f-818b-808296c2208b")
+		)
+		(pin "12"
+			(uuid "8e66722e-0261-42bb-9f26-13775c900af1")
+		)
+		(pin "13"
+			(uuid "136eb6c7-a038-4f8b-849b-ce62f5c3b771")
+		)
+		(pin "11"
+			(uuid "855654b4-e97c-4528-bb9e-94b3acc0e9e7")
+		)
+		(pin "14"
+			(uuid "015b6e17-6b19-4b8a-aa98-3026f5287ec9")
+		)
+		(pin "7"
+			(uuid "2d2166b0-1478-4c6d-89cf-8df0708d9810")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "U6")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 215.9 38.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4154a677-066a-4a2d-b0ed-eba63d012074")
+		(property "Reference" "C11"
+			(at 215.646 36.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 215.392 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 214.9348 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 215.9 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "db0901e9-4fa9-4543-8b1a-688049d98cf3")
+		)
+		(pin "1"
+			(uuid "c6b4c6ba-2f79-40c9-9754-7157665e0bfc")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:EXB-28V220JX")
+		(at 231.14 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a86a104-e953-4d17-a09e-a89d32de42bb")
+		(property "Reference" "R18"
+			(at 240.03 100.33 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "EXB-28V220JX"
+			(at 240.03 102.87 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:EXB28V_PAN"
+			(at 231.14 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "EXB-28V220JX"
+			(at 231.14 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b8d24c66-cd85-4263-8652-444e22255497")
+		)
+		(pin "3"
+			(uuid "87961564-ff59-47ab-b770-6bf53dd9906d")
+		)
+		(pin "4"
+			(uuid "9f24e551-4f38-492c-9b68-361c375007aa")
+		)
+		(pin "8"
+			(uuid "64fb57c0-0223-4b03-b0b0-0b22ce33005c")
+		)
+		(pin "7"
+			(uuid "f2b2b13f-fbec-47ae-800f-eb541068c6ac")
+		)
+		(pin "6"
+			(uuid "cae2076a-ee87-42f1-a098-7c559cac689a")
+		)
+		(pin "5"
+			(uuid "966f15e9-03e1-46fc-b14e-0f741c729661")
+		)
+		(pin "1"
+			(uuid "6859937d-22e3-4c66-979f-072d8b519e40")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.95 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "517cf188-3abb-47bb-98c2-488eb7763a44")
+		(property "Reference" "#PWR037"
+			(at 107.95 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0b2cb58-0011-4400-a102-1905422a082c")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 157.48 38.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66309726-7f8c-4412-a436-3f7e9a818c73")
+		(property "Reference" "C9"
+			(at 157.226 36.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 156.972 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 156.5148 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 157.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "690d381a-7fd9-48e1-b01a-f5f2b3911da0")
+		)
+		(pin "1"
+			(uuid "eef9f035-7be2-41fe-82bd-3fc23526e9a3")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 91.44 36.83 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7513c6dc-1744-4ba4-a259-d2ed070403e2")
+		(property "Reference" "C5"
+			(at 91.186 34.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 90.932 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 90.4748 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 91.44 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "42aefbd4-3a81-44b6-a70f-6d8211797a84")
+		)
+		(pin "1"
+			(uuid "0f9c2258-2461-4813-8ce8-b2938c26578d")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 39.37 36.83 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78995640-75a9-4648-9545-9973a93d8af5")
+		(property "Reference" "C3"
+			(at 39.116 34.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 38.862 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 38.4048 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 39.37 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0b261492-cdfd-4fa4-b388-05304e5717ff")
+		)
+		(pin "1"
+			(uuid "d6543a09-9aad-4b89-b488-4f5bb65ed137")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74AHCT125")
+		(at 101.6 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "797c7650-7cc8-44f0-98a0-9af9ab52adfd")
+		(property "Reference" "U4"
+			(at 101.6 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHCT125"
+			(at 101.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 101.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
+			(at 101.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
+			(at 101.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cd061aaf-35b5-4fac-b914-243a092e5930")
+		)
+		(pin "1"
+			(uuid "7edcddb6-f40b-456c-8b9e-8191cfa92141")
+		)
+		(pin "3"
+			(uuid "c09455c1-16e9-421f-97a7-1755e953edbb")
+		)
+		(pin "5"
+			(uuid "283d3a9e-d106-4f0c-8b0b-382dcfba2ecd")
+		)
+		(pin "4"
+			(uuid "07e39a84-e8ba-433a-a7d8-6eda2f569c48")
+		)
+		(pin "6"
+			(uuid "7da0c188-8ff0-4aa0-b3fc-35fe5b173190")
+		)
+		(pin "9"
+			(uuid "0d7317e2-c4d8-40ba-af4c-7dd2f69a5a6c")
+		)
+		(pin "10"
+			(uuid "99e5c720-fc88-410e-b655-c012d64af207")
+		)
+		(pin "8"
+			(uuid "d59745f4-c9ca-4e9f-818b-808296c2208d")
+		)
+		(pin "12"
+			(uuid "8e66722e-0261-42bb-9f26-13775c900af5")
+		)
+		(pin "13"
+			(uuid "136eb6c7-a038-4f8b-849b-ce62f5c3b775")
+		)
+		(pin "11"
+			(uuid "855654b4-e97c-4528-bb9e-94b3acc0e9eb")
+		)
+		(pin "14"
+			(uuid "015b6e17-6b19-4b8a-aa98-3026f5287ecb")
+		)
+		(pin "7"
+			(uuid "2d2166b0-1478-4c6d-89cf-8df0708d9812")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:EXB-28V220JX")
+		(at 54.61 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "819f3e90-9226-4890-a351-d042ac9c3839")
+		(property "Reference" "R15"
+			(at 63.5 100.33 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "EXB-28V220JX"
+			(at 63.5 102.87 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:EXB28V_PAN"
+			(at 54.61 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "EXB-28V220JX"
+			(at 54.61 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "46b4ec11-bebc-4671-855c-2d3b7b3ecbc8")
+		)
+		(pin "3"
+			(uuid "083f4334-cf63-4a41-88da-eec55b4275e8")
+		)
+		(pin "4"
+			(uuid "6b9a477f-75be-4e80-b17c-5dbf823da4f5")
+		)
+		(pin "8"
+			(uuid "f5566a42-0c9f-4551-996d-dc83eae2e98c")
+		)
+		(pin "7"
+			(uuid "e4491a2a-494b-4951-83fa-88a45b4cc672")
+		)
+		(pin "6"
+			(uuid "97ddc1f8-506a-4d34-8382-c8dd36187739")
+		)
+		(pin "5"
+			(uuid "0e52e079-910a-4964-9a24-d3779768bd5e")
+		)
+		(pin "1"
+			(uuid "dc9f5314-7d65-495b-8f24-4fc27d27dc9e")
+		)
+		(instances
+			(project ""
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 226.06 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92a764cd-b393-42d0-9a8c-4f13453111ea")
+		(property "Reference" "#PWR045"
+			(at 226.06 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 226.06 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 226.06 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f2e8d4a-b367-4b76-a102-24021fd6e9e4")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74AHCT125")
+		(at 161.29 100.33 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "961ee6f2-b13f-4a8e-a6e2-d9b12ba4f200")
+		(property "Reference" "U5"
+			(at 161.29 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHCT125"
+			(at 161.29 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 161.29 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
+			(at 161.29 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
+			(at 161.29 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "33cad190-0f77-4039-a310-830142032e97")
+		)
+		(pin "1"
+			(uuid "7d1c290b-bf6b-4e08-8c64-782e595f5177")
+		)
+		(pin "3"
+			(uuid "bc5423f9-bed1-4da2-8dcd-4f330fff25ef")
+		)
+		(pin "5"
+			(uuid "6ee69c72-d78b-45cc-9b6a-f74fdca1a1bb")
+		)
+		(pin "4"
+			(uuid "d3a2e71f-a724-4d51-8ac0-499ca4764478")
+		)
+		(pin "6"
+			(uuid "f322fc3f-224a-472e-8115-6cea49b857fa")
+		)
+		(pin "9"
+			(uuid "0d7317e2-c4d8-40ba-af4c-7dd2f69a5a6d")
+		)
+		(pin "10"
+			(uuid "99e5c720-fc88-410e-b655-c012d64af208")
+		)
+		(pin "8"
+			(uuid "d59745f4-c9ca-4e9f-818b-808296c2208e")
+		)
+		(pin "12"
+			(uuid "8e66722e-0261-42bb-9f26-13775c900af7")
+		)
+		(pin "13"
+			(uuid "136eb6c7-a038-4f8b-849b-ce62f5c3b777")
+		)
+		(pin "11"
+			(uuid "855654b4-e97c-4528-bb9e-94b3acc0e9ed")
+		)
+		(pin "14"
+			(uuid "015b6e17-6b19-4b8a-aa98-3026f5287ecc")
+		)
+		(pin "7"
+			(uuid "2d2166b0-1478-4c6d-89cf-8df0708d9813")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "U5")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74AHCT125")
+		(at 219.71 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cdceda1-c5b3-4c15-ac07-51990164efe2")
+		(property "Reference" "U6"
+			(at 219.71 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHCT125"
+			(at 219.71 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 219.71 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
+			(at 219.71 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
+			(at 219.71 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cb1f82de-92b8-468f-a5bb-cab83d5d7e02")
+		)
+		(pin "1"
+			(uuid "82073f9b-1300-424b-8f8d-b6e0f6c553ab")
+		)
+		(pin "3"
+			(uuid "5137ba96-335d-4c27-9555-6806404bd193")
+		)
+		(pin "5"
+			(uuid "283d3a9e-d106-4f0c-8b0b-382dcfba2ecf")
+		)
+		(pin "4"
+			(uuid "07e39a84-e8ba-433a-a7d8-6eda2f569c4a")
+		)
+		(pin "6"
+			(uuid "7da0c188-8ff0-4aa0-b3fc-35fe5b173192")
+		)
+		(pin "9"
+			(uuid "0d7317e2-c4d8-40ba-af4c-7dd2f69a5a6e")
+		)
+		(pin "10"
+			(uuid "99e5c720-fc88-410e-b655-c012d64af209")
+		)
+		(pin "8"
+			(uuid "d59745f4-c9ca-4e9f-818b-808296c2208f")
+		)
+		(pin "12"
+			(uuid "8e66722e-0261-42bb-9f26-13775c900af8")
+		)
+		(pin "13"
+			(uuid "136eb6c7-a038-4f8b-849b-ce62f5c3b778")
+		)
+		(pin "11"
+			(uuid "855654b4-e97c-4528-bb9e-94b3acc0e9ee")
+		)
+		(pin "14"
+			(uuid "015b6e17-6b19-4b8a-aa98-3026f5287ece")
+		)
+		(pin "7"
+			(uuid "2d2166b0-1478-4c6d-89cf-8df0708d9815")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 107.95 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d5cef58-cd53-4f1f-ae3c-f714685c856e")
+		(property "Reference" "#PWR036"
+			(at 107.95 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 107.95 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 107.95 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e639325-833a-46fd-b9db-10ef9c67f6ec")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74AHCT125")
+		(at 49.53 36.83 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e640413-29c8-4461-b3c5-0de7976ebb4c")
+		(property "Reference" "U3"
+			(at 55.88 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74AHCT125"
+			(at 55.88 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 49.53 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
+			(at 49.53 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
+			(at 49.53 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "33cad190-0f77-4039-a310-830142032e98")
+		)
+		(pin "1"
+			(uuid "7d1c290b-bf6b-4e08-8c64-782e595f5178")
+		)
+		(pin "3"
+			(uuid "bc5423f9-bed1-4da2-8dcd-4f330fff25f0")
+		)
+		(pin "5"
+			(uuid "283d3a9e-d106-4f0c-8b0b-382dcfba2ed0")
+		)
+		(pin "4"
+			(uuid "07e39a84-e8ba-433a-a7d8-6eda2f569c4b")
+		)
+		(pin "6"
+			(uuid "7da0c188-8ff0-4aa0-b3fc-35fe5b173193")
+		)
+		(pin "9"
+			(uuid "0d7317e2-c4d8-40ba-af4c-7dd2f69a5a6f")
+		)
+		(pin "10"
+			(uuid "99e5c720-fc88-410e-b655-c012d64af20a")
+		)
+		(pin "8"
+			(uuid "d59745f4-c9ca-4e9f-818b-808296c22090")
+		)
+		(pin "12"
+			(uuid "8e66722e-0261-42bb-9f26-13775c900af9")
+		)
+		(pin "13"
+			(uuid "136eb6c7-a038-4f8b-849b-ce62f5c3b779")
+		)
+		(pin "11"
+			(uuid "855654b4-e97c-4528-bb9e-94b3acc0e9ef")
+		)
+		(pin "14"
+			(uuid "1b8a61d6-b738-4325-b8a6-cc35d5e77972")
+		)
+		(pin "7"
+			(uuid "8f1afd35-9efe-4002-8f8c-8c752a12d18a")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "U3")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 167.64 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b88e91f5-1ff7-40af-823e-1e04123051b5")
+		(property "Reference" "#PWR040"
+			(at 167.64 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 167.64 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 167.64 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0924b2b-f2cc-4a6b-91a1-2fc79999bbaf")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 209.55 38.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd089a97-ff56-400f-991d-8cbe0f428a70")
+		(property "Reference" "C10"
+			(at 209.296 36.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 209.042 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 208.5848 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 209.55 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "607c4747-c8ac-4cd8-b271-ccade05e5e80")
+		)
+		(pin "1"
+			(uuid "ea06d451-45c6-4ab2-bdb6-57f9947a2e64")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74AHCT125")
+		(at 101.6 148.59 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "befbfc55-b9c5-4918-9bee-5d01d85551b3")
+		(property "Reference" "U4"
+			(at 101.6 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHCT125"
+			(at 101.6 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 101.6 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
+			(at 101.6 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
+			(at 101.6 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "33cad190-0f77-4039-a310-830142032e99")
+		)
+		(pin "1"
+			(uuid "7d1c290b-bf6b-4e08-8c64-782e595f5179")
+		)
+		(pin "3"
+			(uuid "bc5423f9-bed1-4da2-8dcd-4f330fff25f1")
+		)
+		(pin "5"
+			(uuid "283d3a9e-d106-4f0c-8b0b-382dcfba2ed1")
+		)
+		(pin "4"
+			(uuid "07e39a84-e8ba-433a-a7d8-6eda2f569c4c")
+		)
+		(pin "6"
+			(uuid "7da0c188-8ff0-4aa0-b3fc-35fe5b173194")
+		)
+		(pin "9"
+			(uuid "0d7317e2-c4d8-40ba-af4c-7dd2f69a5a70")
+		)
+		(pin "10"
+			(uuid "99e5c720-fc88-410e-b655-c012d64af20b")
+		)
+		(pin "8"
+			(uuid "d59745f4-c9ca-4e9f-818b-808296c22091")
+		)
+		(pin "12"
+			(uuid "7a4a6ab3-a4dc-4d63-a266-6f2aabcb2278")
+		)
+		(pin "13"
+			(uuid "2ef94c97-a645-4626-a6bf-d393ed17dd2c")
+		)
+		(pin "11"
+			(uuid "4230d386-c9d1-41e0-9268-a76b193c2f7e")
+		)
+		(pin "14"
+			(uuid "015b6e17-6b19-4b8a-aa98-3026f5287ecf")
+		)
+		(pin "7"
+			(uuid "2d2166b0-1478-4c6d-89cf-8df0708d9816")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "U4")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74AHCT125")
+		(at 43.18 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d252856e-0ac5-42f3-ac75-61aa006622f5")
+		(property "Reference" "U3"
+			(at 43.18 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHCT125"
+			(at 43.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 43.18 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
+			(at 43.18 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
+			(at 43.18 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "81491fbb-9f6e-4ff9-b48a-3223d543a094")
+		)
+		(pin "1"
+			(uuid "1757cc52-3dcb-43e7-9f56-3b1239a52121")
+		)
+		(pin "3"
+			(uuid "f57e4beb-5da1-4dd9-b14d-3fde094d2503")
+		)
+		(pin "5"
+			(uuid "283d3a9e-d106-4f0c-8b0b-382dcfba2ed2")
+		)
+		(pin "4"
+			(uuid "07e39a84-e8ba-433a-a7d8-6eda2f569c4d")
+		)
+		(pin "6"
+			(uuid "7da0c188-8ff0-4aa0-b3fc-35fe5b173195")
+		)
+		(pin "9"
+			(uuid "0d7317e2-c4d8-40ba-af4c-7dd2f69a5a71")
+		)
+		(pin "10"
+			(uuid "99e5c720-fc88-410e-b655-c012d64af20c")
+		)
+		(pin "8"
+			(uuid "d59745f4-c9ca-4e9f-818b-808296c22092")
+		)
+		(pin "12"
+			(uuid "8e66722e-0261-42bb-9f26-13775c900afa")
+		)
+		(pin "13"
+			(uuid "136eb6c7-a038-4f8b-849b-ce62f5c3b77a")
+		)
+		(pin "11"
+			(uuid "855654b4-e97c-4528-bb9e-94b3acc0e9f0")
+		)
+		(pin "14"
+			(uuid "015b6e17-6b19-4b8a-aa98-3026f5287ed0")
+		)
+		(pin "7"
+			(uuid "2d2166b0-1478-4c6d-89cf-8df0708d9817")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 226.06 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d66edd48-10e7-441f-8de9-20af3ad33b3f")
+		(property "Reference" "#PWR044"
+			(at 226.06 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 226.06 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 226.06 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "079ef03e-a761-4d1f-9bfc-566595889eac")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74AHCT125")
+		(at 161.29 148.59 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd019a18-3c4b-4e50-b859-ec678f7c1f0e")
+		(property "Reference" "U5"
+			(at 161.29 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHCT125"
+			(at 161.29 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 161.29 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
+			(at 161.29 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
+			(at 161.29 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "33cad190-0f77-4039-a310-830142032e9a")
+		)
+		(pin "1"
+			(uuid "7d1c290b-bf6b-4e08-8c64-782e595f517a")
+		)
+		(pin "3"
+			(uuid "bc5423f9-bed1-4da2-8dcd-4f330fff25f2")
+		)
+		(pin "5"
+			(uuid "283d3a9e-d106-4f0c-8b0b-382dcfba2ed3")
+		)
+		(pin "4"
+			(uuid "07e39a84-e8ba-433a-a7d8-6eda2f569c4e")
+		)
+		(pin "6"
+			(uuid "7da0c188-8ff0-4aa0-b3fc-35fe5b173196")
+		)
+		(pin "9"
+			(uuid "0d7317e2-c4d8-40ba-af4c-7dd2f69a5a72")
+		)
+		(pin "10"
+			(uuid "99e5c720-fc88-410e-b655-c012d64af20d")
+		)
+		(pin "8"
+			(uuid "d59745f4-c9ca-4e9f-818b-808296c22093")
+		)
+		(pin "12"
+			(uuid "f59c826f-45a0-4436-96f0-698c85b8dbbb")
+		)
+		(pin "13"
+			(uuid "3f26bb9d-1640-499a-8252-a70b8cf0d8cc")
+		)
+		(pin "11"
+			(uuid "7e721fa8-607b-4065-a5e1-31ba2aea2bd0")
+		)
+		(pin "14"
+			(uuid "015b6e17-6b19-4b8a-aa98-3026f5287ed1")
+		)
+		(pin "7"
+			(uuid "2d2166b0-1478-4c6d-89cf-8df0708d9818")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "U5")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74AHCT125")
+		(at 219.71 124.46 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dffc8118-8e3c-443d-ab55-f13defddba52")
+		(property "Reference" "U6"
+			(at 219.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHCT125"
+			(at 219.71 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 219.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
+			(at 219.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
+			(at 219.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "33cad190-0f77-4039-a310-830142032e9b")
+		)
+		(pin "1"
+			(uuid "7d1c290b-bf6b-4e08-8c64-782e595f517b")
+		)
+		(pin "3"
+			(uuid "bc5423f9-bed1-4da2-8dcd-4f330fff25f3")
+		)
+		(pin "5"
+			(uuid "283d3a9e-d106-4f0c-8b0b-382dcfba2ed4")
+		)
+		(pin "4"
+			(uuid "07e39a84-e8ba-433a-a7d8-6eda2f569c4f")
+		)
+		(pin "6"
+			(uuid "7da0c188-8ff0-4aa0-b3fc-35fe5b173197")
+		)
+		(pin "9"
+			(uuid "0c9eef25-7f28-4767-9c43-7fddd9ba44e5")
+		)
+		(pin "10"
+			(uuid "d72b7874-e779-4629-8789-06c22d6ecd60")
+		)
+		(pin "8"
+			(uuid "a10473e3-d094-403e-8b38-361228cd1af8")
+		)
+		(pin "12"
+			(uuid "8e66722e-0261-42bb-9f26-13775c900afb")
+		)
+		(pin "13"
+			(uuid "136eb6c7-a038-4f8b-849b-ce62f5c3b77b")
+		)
+		(pin "11"
+			(uuid "855654b4-e97c-4528-bb9e-94b3acc0e9f1")
+		)
+		(pin "14"
+			(uuid "015b6e17-6b19-4b8a-aa98-3026f5287ed2")
+		)
+		(pin "7"
+			(uuid "2d2166b0-1478-4c6d-89cf-8df0708d9819")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "U6")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74AHCT125")
+		(at 43.18 100.33 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e43cc037-3281-44e6-a3ee-32b8a207f3fe")
+		(property "Reference" "U3"
+			(at 43.18 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHCT125"
+			(at 43.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 43.18 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
+			(at 43.18 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
+			(at 43.18 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "33cad190-0f77-4039-a310-830142032e9c")
+		)
+		(pin "1"
+			(uuid "7d1c290b-bf6b-4e08-8c64-782e595f517c")
+		)
+		(pin "3"
+			(uuid "bc5423f9-bed1-4da2-8dcd-4f330fff25f4")
+		)
+		(pin "5"
+			(uuid "7fef3a79-6663-43cf-a87d-da50e252bbe6")
+		)
+		(pin "4"
+			(uuid "b2447f7e-9e4b-4394-ac33-b3a45b7932a6")
+		)
+		(pin "6"
+			(uuid "b582daeb-a6cf-4c06-a478-9669b74bdcf8")
+		)
+		(pin "9"
+			(uuid "0d7317e2-c4d8-40ba-af4c-7dd2f69a5a73")
+		)
+		(pin "10"
+			(uuid "99e5c720-fc88-410e-b655-c012d64af20e")
+		)
+		(pin "8"
+			(uuid "d59745f4-c9ca-4e9f-818b-808296c22094")
+		)
+		(pin "12"
+			(uuid "8e66722e-0261-42bb-9f26-13775c900afc")
+		)
+		(pin "13"
+			(uuid "136eb6c7-a038-4f8b-849b-ce62f5c3b77c")
+		)
+		(pin "11"
+			(uuid "855654b4-e97c-4528-bb9e-94b3acc0e9f2")
+		)
+		(pin "14"
+			(uuid "015b6e17-6b19-4b8a-aa98-3026f5287ed3")
+		)
+		(pin "7"
+			(uuid "2d2166b0-1478-4c6d-89cf-8df0708d981a")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "U3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6248a49-2413-4d08-ac1f-75476b19a41b")
+		(property "Reference" "#PWR041"
+			(at 167.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0ec6f76-105e-4af0-835e-9d37d7af90b0")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74AHCT125")
+		(at 43.18 124.46 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee0e9efc-9480-4b5b-97fe-b8dde794c8f7")
+		(property "Reference" "U3"
+			(at 43.18 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHCT125"
+			(at 43.18 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 43.18 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
+			(at 43.18 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
+			(at 43.18 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "33cad190-0f77-4039-a310-830142032e9d")
+		)
+		(pin "1"
+			(uuid "7d1c290b-bf6b-4e08-8c64-782e595f517d")
+		)
+		(pin "3"
+			(uuid "bc5423f9-bed1-4da2-8dcd-4f330fff25f5")
+		)
+		(pin "5"
+			(uuid "283d3a9e-d106-4f0c-8b0b-382dcfba2ed5")
+		)
+		(pin "4"
+			(uuid "07e39a84-e8ba-433a-a7d8-6eda2f569c50")
+		)
+		(pin "6"
+			(uuid "7da0c188-8ff0-4aa0-b3fc-35fe5b173198")
+		)
+		(pin "9"
+			(uuid "b7af0bbf-3e69-4886-b1da-1bbc0bb3dd55")
+		)
+		(pin "10"
+			(uuid "e2442d7b-1d95-46d3-978e-9f6ef69c2055")
+		)
+		(pin "8"
+			(uuid "7b339106-3872-484e-9cdd-950f3bddf108")
+		)
+		(pin "12"
+			(uuid "8e66722e-0261-42bb-9f26-13775c900afd")
+		)
+		(pin "13"
+			(uuid "136eb6c7-a038-4f8b-849b-ce62f5c3b77d")
+		)
+		(pin "11"
+			(uuid "855654b4-e97c-4528-bb9e-94b3acc0e9f3")
+		)
+		(pin "14"
+			(uuid "015b6e17-6b19-4b8a-aa98-3026f5287ed4")
+		)
+		(pin "7"
+			(uuid "2d2166b0-1478-4c6d-89cf-8df0708d981b")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "U3")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 97.79 36.83 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f09ea321-963b-4af8-93a2-79fc3e850fee")
+		(property "Reference" "C7"
+			(at 97.536 34.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 97.282 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 96.8248 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 97.79 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f851b867-8786-4aac-80c9-276e8a311d4c")
+		)
+		(pin "1"
+			(uuid "201efa5e-01ce-4d94-a2ad-6473c29398c5")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b/93477402-b5a9-4512-900a-b176d3cf1198"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

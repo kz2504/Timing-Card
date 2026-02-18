@@ -4415,6 +4415,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 38.1) (xy 261.62 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5390d005-dac6-486b-b324-ed04c7d647e0")
+	)
+	(wire
+		(pts
 			(xy 218.44 121.92) (xy 233.68 121.92)
 		)
 		(stroke
@@ -6993,6 +7003,16 @@
 		)
 		(uuid "6fc11d2c-079c-420e-a218-b9b2c0376ac6")
 	)
+	(label "3V3_OUT4"
+		(at 261.62 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7032fb76-dfcc-4fe3-902a-9e1686d2fc59")
+	)
 	(label "3V3_IN3"
 		(at 124.46 86.36 0)
 		(effects
@@ -9110,6 +9130,71 @@
 			(project "Timing Card R1"
 				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b"
 					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 259.08 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63c3953f-9d83-4b02-a96a-78eec2dff386")
+		(property "Reference" "TP22"
+			(at 255.778 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 255.778 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 259.08 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 259.08 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94c82d6e-bd1a-4033-9dd4-5bbedf1d8498")
+		)
+		(instances
+			(project "Timing Card R1"
+				(path "/fff8b85b-b334-4e51-bf22-f5c588ac7d6b"
+					(reference "TP22")
 					(unit 1)
 				)
 			)
